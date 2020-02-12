@@ -23,13 +23,15 @@ Open up terminal and run:
 * `git clone https://github.com/nasa/fprime`
 
 ### Installing python3
+
 * `sudo apt install python3-pip`
 
 ### Create a Virtual environment
+
 * `sudo apt install python3-venv`
 * Then run `python3 -m venv ./fprime-venv` (preferably in the same parent folder that contains the F' repo)
 * You can now execute `. ./fprime-venv/bin/activate` to go into the virtual environment
-    * You might want to copy the `venv.sh` file available in this repo in the same folder as your `fprime-venv` to make it easier to launch the virtual environment
+    * You might want to copy the `venv.sh` [file](https://github.com/laurentlaurent/Setting-Up-FPrime/blob/master/venv.sh) available in this repo in the same folder as your `fprime-venv` to make it easier to launch the virtual environment
     * If you do so, make sure to `chmod +x venv.sh`
     * Then you'll be able to switch to the fprime-venv using `. ./venv.sh`
 * When you're switched, your terminal should show `(fprime-venv)`
@@ -130,7 +132,7 @@ Read the following [README](https://github.com/nasa/fprime/tree/master/cmake) to
 ### Create 2 files
 
 * Navigate to `<path/to/fprime/checkout>/cmake/platform` and execute `touch bbb.cmake`
-* Copy the `bbb.cmake` from this repo into the directory `<path/to/fprime/checkout>/cmake/toolchain`
+* Copy the `bbb.cmake` [file](https://github.com/laurentlaurent/Setting-Up-FPrime/blob/master/bbb.cmake) from this repo into the directory `<path/to/fprime/checkout>/cmake/toolchain`
 
 Now, you can either choose to build with the F' Utility or CMake
 
