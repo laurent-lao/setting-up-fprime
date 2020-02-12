@@ -39,7 +39,7 @@ Open up terminal and run:
 
 ### Installing other dependencies
 
-FPrime has a script that will install other ubuntu packages for you
+FPrime has a script that will install other ubuntu packages for you (this is why it is recommended to use a Ubuntu-based distro)
 
 * `sudo ./fprime/mk/os-pkg/ubuntu-packages.sh`
 
