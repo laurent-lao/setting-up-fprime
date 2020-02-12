@@ -1,6 +1,6 @@
 # Setting Up FPrime
 
-Guide for setting up FPrime for written for Space Concordia.
+Guide for setting up FPrime for written for Space Concordia by [Laurent Lao](https://github.com/laurentlaurent).
 
 Improves on [Amrit Thind](https://github.com/ehthind)'s instructions (available on the [CCP Google Drive](https://docs.google.com/document/d/15QZm79JIyOx3yVhLVtHCxsk8jWgusNm_K82MuyQTPns/edit)) by using information available on NASA's FPrime repo.
 
