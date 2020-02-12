@@ -10,7 +10,7 @@ Mainly:
 * [Getting Started with F'](https://github.com/nasa/fprime/blob/master/docs/Tutorials/GettingStarted/Tutorial.md)
 * [F' User Guide](https://github.com/nasa/fprime/blob/master/docs/UsersGuide/FprimeUserGuide.pdf)
 
-This guide assumes that you are running Ubuntu/Linux Mint (or any Ubuntu based distro) either as a VM or as your OS.
+This guide assumes that you are running Ubuntu/Linux Mint (or any [Ubuntu-based](https://en.wikipedia.org/wiki/List_of_Linux_distributions#Ubuntu-based) distro) either as a VM or as your OS.
 I recommend that you use [Linux Mint](https://linuxmint.com/) if you are choosing the [VM route](https://www.virtualbox.org/) as it is less resource intensive. 
 
 ## Installing System Dependencies
