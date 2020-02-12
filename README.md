@@ -85,7 +85,7 @@ There is two ways you can build for your linux system
 #### Generate the Ref application
 
 * `cd <path/to/fprime/checkout>/Ref`
-* `fprime-util generate` (it will fail if you've executed before in *Checking your F' Installation*)
+* `fprime-util generate` (it will fail if you've executed before in [Checking your F' Installation](https://github.com/laurentlaurent/Setting-Up-FPrime#checking-your-f-installation))
 
 #### Generate the F' Framework
 
@@ -94,15 +94,24 @@ There is two ways you can build for your linux system
 
 #### Build Ref deployment 
 
-F' doc says that you almost always wants to run the install command on deployments. See the install command section. 
+F' doc says that you almost always wants to run the install command on deployments. See the [install command section](https://github.com/laurentlaurent/Setting-Up-FPrime#install-command-f-utility). 
 
-* You might want to do install instead, but the steps are outlined here for completeness
-* `cd <path/to/fprime/checkout>/Ref`
-* `fprime-util build`
+* You might want to do [install](https://github.com/laurentlaurent/Setting-Up-FPrime#install-command-f-utility) instead, but the steps are outlined here for completeness
+    - `cd <path/to/fprime/checkout>/Ref`
+    - `fprime-util build`
 
 #### Generating Components and Deployments
 
-Using the F' Utility tools, you can build a component or deployment using `cd fprime/Ref/<component>` and then `fprime-util build`. If you want to build a deployment, then use `cd <path/to/fprime/checkout>/deployment` then `fprime-util build` (just like in *Build Ref deployment*).
+Using the F' Utility tools, you can build a component or deployment using `cd fprime/<deployment>/<component>` and then `fprime-util build`.
+
+Example of Build SignalGen Component
+
+* `cd <path/to/fprime/checkout>/Ref/SignalGen`
+* `fprime-util build`
+
+If you want to build a deployment, then use `cd <path/to/fprime/checkout>/deployment` then `fprime-util build` (just like in [Build Ref deployment](https://github.com/laurentlaurent/Setting-Up-FPrime#build-ref-deployment)).
+
+
 
 ### Using CMake
 
@@ -140,7 +149,7 @@ F' doc says that you almost always wants to run the install command on deploymen
     * `cd <path/to/fprime/checkout>/Ref/SignalGen`
     * `fprime-util build bbb`
 * Example of building a deployment. 
-    * You might want to do install instead, but the steps are outlined here for completeness
+    * You might want to do [install](https://github.com/laurentlaurent/Setting-Up-FPrime#install-command-f-utility) instead, but the steps are outlined here for completeness
     * `cd <path/to/fprime/checkout>/Ref`
     * `fprime-util build bbb`
 
@@ -154,11 +163,11 @@ F' doc says that you almost always wants to run the install command on deploymen
 
 ### Transfer to BBB (INCOMPLETE)
 
-Use ssh or the integrated IDE (Cloud9) to transfer the binary created to the BBB. See here for how to do that
+Use `ssh` or the integrated IDE (Cloud9) to transfer the binary created to the BBB. See here for how to do that
 
 ### Run on target
 
-Using a terminal running on the BBB run the binary using ./<NAME_OF_BINARY>
+Using a terminal running on the BBB run the binary using `./<NAME_OF_BINARY>`
 
 ### Known issues
 
@@ -170,7 +179,9 @@ Need to setup communication between the BBB and our host computer so that we can
 
 ## Install Command (F' utility)
 
-(The rest is copy pasted from the F'[tutorial](https://github.com/nasa/fprime/blob/master/docs/Tutorials/GettingStarted/Tutorial.md#installing-the-f-executable-and-dictionaries))
+(The rest is copy pasted from the F' [tutorial](https://github.com/nasa/fprime/blob/master/docs/Tutorials/GettingStarted/Tutorial.md#installing-the-f-executable-and-dictionaries), it is here for completeness.)
+
+<!-- Start of copy/paste from F' Tutorial -->
 
 Once the deployment is built, it would nice to be able to install the binary and dictionaries. This will enable the users to quickly find and run the deployment. This installation can be run using the following command. Everything will be installed to the directory defining the deployment. i.e. fprime/Ref/bin. Install will also invoke "build" so users should use this in-place of build for deployments.
 
@@ -267,5 +278,6 @@ applications. The next step is to follow the full `MathComponent` tutorial to cr
 **Next:** [Math Component Tutorial](../MathComponent/Tutorial.md)
 **Also See:** [GPS Component Tutorial](../GpsTutorial/Tutorial.md) for a cross-compiling tutorial.
 
+<!-- End of Copy/Paste from F' tutorial -->
 
 
