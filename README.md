@@ -78,7 +78,7 @@ Now you should be done with installing dependencies. Check your installation wit
 
 ## Building for Linux
 
-Verify that you are in the `(fprime-venv)`
+**Verify that you are in the `(fprime-venv)`**
 
 There is two ways you can build for your linux system
 
@@ -124,6 +124,8 @@ If you want to build a deployment, then use `cd <path/to/fprime/checkout>/deploy
 * `make`
 
 ## Building for BBB
+
+**Verify that you are in the `(fprime-venv)`**
 
 Since we want to be able use the cross compile toolchain for the BBB/Arm, we need to generate its cmake
 
@@ -180,6 +182,8 @@ You may get a segmentation fault when running the binary on the BBB if this happ
 Need to setup communication between the BBB and our host computer so that we can run the ground station and send commands to the BBB through UART or something similar.
 
 ## Install Command (F' utility)
+
+**Verify that you are in the `(fprime-venv)`**
 
 (The rest is copy pasted from the F' [tutorial](https://github.com/nasa/fprime/blob/master/docs/Tutorials/GettingStarted/Tutorial.md#installing-the-f-executable-and-dictionaries), it is here for completeness.)
 
