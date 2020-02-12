@@ -196,10 +196,10 @@ CTRL-C # Exit the application
 ```
 Running the application as part of the development ground data system is shown below.
 
-The user can also install a cross-compile.
+The user can also install a cross-compile. (Small edit from the F' docs to specify the BBB build)
 ```
 cd fprime/Ref
-fprime-util install raspberrypi
+fprime-util install bbb
 ```
 
 ## Creating Implementation Stubs
