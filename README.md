@@ -277,8 +277,8 @@ The user should now be familiar with F´ terminology and with the `fprime-util` 
 applications. The next step is to follow the full `MathComponent` tutorial to create new *Ports*, *Components*, and 
 *Topologies*. This will walk the user through the entire development process, using the tool commands we learned here.
 
-**Next:** [Math Component Tutorial](../MathComponent/Tutorial.md)
-**Also See:** [GPS Component Tutorial](../GpsTutorial/Tutorial.md) for a cross-compiling tutorial.
+**Next:** [Math Component Tutorial](https://github.com/nasa/fprime/blob/master/docs/Tutorials/MathComponent/Tutorial.md)
+**Also See:** [GPS Component Tutorial](https://github.com/nasa/fprime/blob/master/docs/Tutorials/GpsTutorial/Tutorial.md) for a cross-compiling tutorial.
 
 <!-- End of Copy/Paste from F' tutorial -->
 
