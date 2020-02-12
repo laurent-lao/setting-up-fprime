@@ -265,10 +265,10 @@ The output of the unit test should be displayed in the console.
 The user can also build the unit test, but must copy it to the hardware and run it here. This can be done with a cross-
 compile by running the following commands.
 
-**Cross-Compile Unit Test of SignalGen**
+**Cross-Compile Unit Test of SignalGen**  (Small edit from the F' docs to specify the BBB build)
 ```
 cd fprime/Ref/SignalGen
-fprime-util build-ut raspberrypi
+fprime-util build-ut bbb
 ```
 
 ## Conclusion
